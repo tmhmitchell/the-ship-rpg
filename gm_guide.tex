@@ -1,0 +1,68 @@
+\documentclass[10pt]{article}
+
+%Fix borders
+\usepackage[top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
+
+% Change spaceing on \section
+\usepackage[noindentafter]{titlesec}
+\titlespacing{\section}{0cm}{1.5em}{0.5em}[0em]
+
+% Disable page num
+\pagenumbering{gobble}
+
+% For filler text
+\usepackage[english]{babel}
+\usepackage{blindtext}
+
+% For spaced paragraphs
+\usepackage[parfill]{parskip}
+
+% For the new font
+\usepackage{fontspec}
+\setmainfont{my_underwood.ttf}
+\raggedright
+
+\usepackage[normalem]{ulem}
+
+% columns and ruler
+\usepackage{multicol}
+\setlength{\columnseprule}{0.4pt}
+
+
+\newcommand{\xsout}[1]{\xout{\sout{#1}}}
+
+
+%\raggedright
+% \\ to newline
+% \vspace{1em} to insert spacer
+
+\begin{document}
+%\tt
+
+
+The Ship - Player's Guide \hfill {\verb+__[]_[]_   +}\\ 
+================= \hfill {\verb|~~~\______/~~|}\\
+
+November 6th, 1891. Somewhere in The North Atlantic ocean. \hfill {\verb|~  .~~   ~.|}\vspace{1em}
+
+You are passengers upon the S.S. Batavier. Unfortunately for the crew, and for the rest of the passengers, there has been a murder upon the ship. Fortunately for them, you are a consortium of highly skilled private investigators heading for a conference in Albany, New York.
+
+\begin{multicols*}{2}
+================================\\
+{\centering{Character Creation}\\}
+================================\\\vspace{1em}
+1. Assign dice (d4, d6, d6, d8) to your skills.\\
+Stats: intellect, might, law, crime\\
+equipment: revolver (6 shots), lockpicks, disguise kit\\
+\vspace{1em}
+stats, skills, equipment
+
+deduction, disguise, biology, chemistry, specific knowledges
+
+
+
+
+
+\end{multicols*}
+
+\end{document}
